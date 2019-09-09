@@ -10,7 +10,7 @@ val Scala212 = "2.12.9"
 
 scalaVersion := Scala212
 
-crossScalaVersions := Seq("2.11.12", Scala212, "2.13.0")
+crossScalaVersions := Seq("2.11.12", Scala212)
 
 javacOptions ++= Seq("-source", "1.8", "-target", "1.8")
 
